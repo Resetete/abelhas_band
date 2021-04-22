@@ -138,10 +138,10 @@ nav p {
   font-family: 'Zilla Slab Highlight';
 }
 
-.imprint {
+.imprint h1 {
+  margin-top: 100px;
   color: white;
 }
-
 
 /* ==========================================================================
    Helper classes
