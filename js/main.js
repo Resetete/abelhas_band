@@ -2,9 +2,12 @@ $('.contact1-form').on('submit',function(e){
     //optional validation code here
     e.preventDefault();
     $.ajax({
-        url: "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbxlh7r_fxS9MesYsSOWRNA4h7-7n2sqJYNYhLd3t-8aUJhOnWAQgrYuOedepO-mrgo/exec",
+        url: "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbwwCYxvnQ6BmaTZyUHPZsF4SFPpsSEa1ro7OgT5_WfDbWEQh-wXGobzrJvMB0t1VfQ/exec",
         method: "POST",
         dataType: "json",
+        beforeSend: function(request) {
+          request.setRequestHeader("User-Agent","resetete");
+        },
         data: $(".contact1-form").serialize(),
         success: function(response) {
 
