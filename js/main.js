@@ -13,6 +13,7 @@ form.addEventListener('submit', e => {
 })
 
 function display_thankyou_message(response) {
-  var test = $('.thankyou_message').css('display', 'block');
+  $('.thankyou_message').css('display', 'block');
+  $('.gform').css('display', 'none');
   console.log(response);
 };
