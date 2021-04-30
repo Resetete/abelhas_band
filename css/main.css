@@ -129,7 +129,7 @@ nav p {
   -o-background-size: cover;
 }
 
-.section-dates {
+.section-content {
   margin: 80px 0 80px 40px;
 }
 
@@ -142,6 +142,42 @@ nav p {
   color: white;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 10px;
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border: none !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+input::placeholder {
+  color: #FF1B00;
+}
+
+button[type="submit"] {
+  background-color: #FF1B00;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: #E3E3E0;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #FF8000
+}
 
 /* ==========================================================================
    Helper classes
