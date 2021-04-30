@@ -91,7 +91,7 @@ html {
   background-color: black;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, nav a {
   color: white;
 }
 
@@ -110,10 +110,11 @@ nav {
   width: 100%;
 }
 
-nav p {
+nav a {
   padding: 0 10px;
   font-size: 1.2em;
   color: white;
+  text-decoration: none;
 }
 
 .main-background {
