@@ -1,6 +1,7 @@
 // Contact form send data to google spreadsheets
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxtmW7XKfiNlHuQl1Oh5wmmtABrI8yj17mm3cEdLcfnXQpaiH7I-KZbN65yIBIUdh0/exec'
+// thats the google script url from the deployment
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxrFzYOwsf_EVt609XR8NFgHD0Jk4fw-JVpja_ttKxBEmr3Ip5Jr3VbAolh6bXVvTg/exec'
 const form = document.forms['submit-to-google-sheet']
 
 
