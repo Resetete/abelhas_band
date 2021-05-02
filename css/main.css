@@ -195,12 +195,15 @@ input::placeholder {
 }
 
 button[type="submit"] {
-  background-color: #FF1B00;
-  border: none;
-  border-radius: 2px;
-  padding: 10px 20px;
-  color: #E3E3E0;
   cursor: pointer;
+  background: url("../img/contact-button.png");
+  background-size: 100%;
+  width: 214px;
+  height: 124px;
+  background-repeat: no-repeat;
+  border: none;
+  padding: none;
+  background-color: none;
 }
 
 button[type="submit"]:hover {
@@ -212,6 +215,22 @@ button[type="submit"]:hover {
   height: auto;
 }
 
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 40px;
+}
+
+.address p {
+  margin: 0;
+}
+
+.address iframe {
+  margin-top: 20px;
+  width: 100%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
