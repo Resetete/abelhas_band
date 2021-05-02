@@ -95,6 +95,10 @@ h1, h2, h3, h4, p, nav a {
   color: white;
 }
 
+figure {
+  margin: 0;
+}
+
 /*****************/
 /*** Main page ***/
 /***************/
@@ -131,7 +135,11 @@ nav a {
 }
 
 .section-content {
-  margin: 80px 0 80px 40px;
+  margin: 80px 30px 80px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 
 .highlight {
@@ -150,9 +158,19 @@ nav a {
   flex-flow: column;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type=text], input[type=email], select {
   width: 100%;
+  min-width: 300px;
   padding: 10px;
+  border: none !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select, textarea {
+  width: 100%;
+  min-width: 300px;
+  padding: 4px;
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   border: none !important;
   border-radius: 4px;
@@ -178,6 +196,11 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #FF8000
+}
+
+.video {
+  width: 100%;
+  height: auto;
 }
 
 /* ==========================================================================
