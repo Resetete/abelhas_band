@@ -198,8 +198,9 @@ button[type="submit"] {
   cursor: pointer;
   background: url("../img/contact-button.png");
   background-size: 100%;
-  width: 214px;
-  height: 124px;
+  width: 114px;
+  height: 72px;
+  max-width: 214px;
   background-repeat: no-repeat;
   border: none;
   padding: none;
@@ -230,6 +231,7 @@ button[type="submit"]:hover {
 .address iframe {
   margin-top: 20px;
   width: 100%;
+  min-width: 30vw;
 }
 /* ==========================================================================
    Helper classes
