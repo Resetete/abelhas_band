@@ -152,8 +152,9 @@ nav a {
 }
 
 .highlight {
-  color: #FF1B00;
-  font-family: 'Zilla Slab Highlight';
+  color: #DE4B2E;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
 }
 
 .imprint {
@@ -191,7 +192,7 @@ select, textarea {
 }
 
 input::placeholder {
-  color: #FF1B00;
+  color: #DE4B2E;
 }
 
 button[type="submit"] {
